@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="css/styles.css"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <div class="article" id='learn'>  
+      <h1>Learn to code by watching others</h1>
+      <br>
+      <div id="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. </div>
+    </div>
+    <div class="article">   
+    <button id="try">Try it free 7 days then $20/mo. thereafter</button>
+    <form id="form" name="signup_form">
+      <div class="field-group">
+        <input id="first_name" type="text" placeholder="First Name"/>
+        <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+        <p class="error-text">First Name cannot be empty</p>
+      </div>
+      <div class="field-group">
+        <input id="last_name" type="text" placeholder="Last Name"/>
+        <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+        <p class="error-text">Last Name cannot be empty</p>
+      </div>
+      <div class="field-group">
+        <input id="email" type="text" placeholder="Email Address"/>
+        <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+        <p class="error-text">Email cannot be empty</p>
+      </div>
+      <div class="field-group">
+        <input id="password" type="text" placeholder="Password"/>
+        <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+        <p class="error-text">Password cannot be empty</p>
+      </div>
+      <button type="submit" id="submit">CLAIM YOUR FREE TRIAL</button>
+      <div class="tos">By clicking the button, you are agreeing to our Terms and Services </div>
+    </form>
+  </div>
+  <script src="javascript/validation.js"></script>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Artur Abdullin</a>.
+    </p>
+  </footer>
+</body>
+</html>
