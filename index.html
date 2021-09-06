@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="css/styles.css"> 
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 
 <body>
   <section id="intro">
     <div class="container">
-      <div class="left-col" id='learn'>  
+      <div class="left-col" id='learn'>
         <h1>Learn to code by watching others</h1>
         <br>
-        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
         but understanding how developers think is invaluable.</p>
       </div>
-      <div class="right-col">   
+      <div class="right-col">
         <div class="top-box">
           <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
         </div>
@@ -26,25 +26,25 @@
           <form action="#">
             <div class="field-group">
               <label for="first_name">First Name</label>
-              <input name="first_name" type="text" placeholder="First Name"/>
+              <input id="first_name" name="first_name" type="text" placeholder="First Name"/>
               <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
               <p class="error-text">First Name cannot be empty</p>
             </div>
             <div class="field-group">
               <label for="last_name">Last Name</label>
-              <input name="last_name" type="text" placeholder="Last Name"/>
+              <input id="last_name" name="last_name" type="text" placeholder="Last Name"/>
               <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
               <p class="error-text">Last Name cannot be empty</p>
             </div>
             <div class="field-group">
               <label for="email">Email</label>
-              <input name="email" type="text" placeholder="Email Address"/>
+              <input id="email" name="email" type="email" placeholder="Email Address"/>
               <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
               <p class="error-text">Email cannot be empty</p>
             </div>
             <div class="field-group">
               <label for="password">Password</label>
-              <input name="password" type="text" placeholder="Password"/>
+              <input id="password" name="password" type="text" placeholder="Password"/>
               <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
               <p class="error-text">Password cannot be empty</p>
             </div>
@@ -57,7 +57,7 @@
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Artur Abdullin</a>.
     </p>
   </footer>
